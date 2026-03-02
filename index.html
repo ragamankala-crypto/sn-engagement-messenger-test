@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ServiceNow Engagement Messenger Test</title>
+</head>
+<body>
+    <h1>Welcome to the Test Website</h1>
+    <p>The Engagement Messenger should appear in the bottom right corner.</p>
+
+    <!-- Paste your ServiceNow Engagement Messenger Code Snippet Below -->
+    <script src="https://abhrademo3.service-now.com/scripts/sn_csm_ec.js?v=5.6"></script>
+<script>
+SN_CSM_EC.init({
+	moduleID: "https://abhrademo3.service-now.com/#e5636efa475bb2104568a9ab116d43ba",
+	loadFeature: SN_CSM_EC.loadEMFeature()
+});
+</script>
+</body>
+</html>
